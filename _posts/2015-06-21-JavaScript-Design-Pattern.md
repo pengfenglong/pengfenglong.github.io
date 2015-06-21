@@ -8,7 +8,7 @@ excerpt: JavaScript 设计模式
 
 * content
 {:toc}
----
+
 ##构造器模式
 ---
 ##模块化模式
@@ -34,7 +34,7 @@ excerpt: JavaScript 设计模式
 ##装饰模式
 ---
 ##轻量级模式
----
+
 
 
 
