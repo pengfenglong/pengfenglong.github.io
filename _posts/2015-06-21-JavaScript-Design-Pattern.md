@@ -11,6 +11,9 @@ excerpt: JavaScript 设计模式
 
 ##构造器模式
 
+
+test
+
 ##模块化模式
 
 ##暴露模块模式
