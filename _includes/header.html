@@ -31,13 +31,19 @@
           <li>
         {% endif %}
           <a href="{{ site.baseurl }}/archive"><span class="glyphicon glyphicon-heart"></span> 归档</a></li>
+		  
+		{% if page.url == "/topic" %}
+          <li class="active">
+          {% else %}
+          <li>
+        {% endif %}
+          <a href="{{ site.baseurl }}/archive"><span class="glyphicon glyphicon-play"></span> 专题</a></li>
 		
 		<li class="dropdown">
 			<a class="dropdown-toggle" data-toggle="dropdown" href="#">其他<b class="caret"></b></a>
 			<ul class="dropdown-menu">
 				<li><a href="{{ site.baseurl }}/demo">Demo</a></li>
 				<li><a href="{{ site.baseurl }}/test">Test</a></li>
-				<li><a href="{{ site.baseurl }}/topic">主题</a></li>
 				<li><a href="{{ site.baseurl }}/about">关于我</a></li>
 			</ul>
 		</li>
