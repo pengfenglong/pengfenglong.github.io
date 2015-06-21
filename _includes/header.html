@@ -12,7 +12,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      <p class="navbar-text">Front-end Dev Engineer</p>
+      <p class="navbar-text"></p>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -24,7 +24,24 @@
           <li>
         {% endif %}
           <a href="{{ site.baseurl }}/"><span class="glyphicon glyphicon-th-large"></span> 博客</a></li>
-
+		  
+		{% if page.url == "/archive" %}
+          <li class="active">
+          {% else %}
+          <li>
+        {% endif %}
+          <a href="{{ site.baseurl }}/archive"><span class="glyphicon glyphicon-heart"></span> 归档</a></li>
+		
+		<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#">其他<b class="caret"></b></a>
+			<ul class="dropdown-menu">
+				<li><a href="{{ site.baseurl }}/demo">Demo</a></li>
+				<li><a href="{{ site.baseurl }}/test">Test</a></li>
+				<li><a href="{{ site.baseurl }}/topic">主题</a></li>
+				<li><a href="{{ site.baseurl }}/about">关于我</a></li>
+			</ul>
+		</li>
+		<!-- 
         {% for p in site.pages %}
           {% if p.title %}
             {% if p.url == page.url %}
@@ -35,16 +52,8 @@
             <a href="{{ p.url | prepend: site.baseurl }}"><span class="glyphicon {{ p.icon }}"></span> {{ p.title }}</a></li>
           {% endif %}
         {% endfor %}
-		<li class="dropdown">
-			<a class="dropdown-toggle" data-toggle="dropdown" href="#">其他<b class="caret"></b></a>
-			<ul class="dropdown-menu">
-				<li><a href="{{ site.baseurl }}/test">test</a></li>
-				<li><a href="#">MySQL</a></li>
-				<li class="divider"></li>
-				<li><a href="#">JavaScript</a></li>
-				<li><a href="#">HTML5</a></li>
-			</ul>
-		</li>
+		-->
+
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
