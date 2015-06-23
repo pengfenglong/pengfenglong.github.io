@@ -18,7 +18,7 @@ excerpt: Java 设计模式
 
 ###1.3 单例模式 Singleton
 	
-	饿汉模式
+	####饿汉模式
 	public class Singleton {
 
 	　　private Singleton(){}
@@ -34,7 +34,7 @@ excerpt: Java 设计模式
 	　　 } 
 	} 
 	 
-	懒汉模式
+	####懒汉模式
 	public class Singleton { 
 
 	　　private static Singleton instance = null;
