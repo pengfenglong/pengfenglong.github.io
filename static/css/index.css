@@ -79,7 +79,7 @@ nav{
 }
 .post-list-item{
 	display: block;
-	padding:8px 30px 10px 30px; 
+	padding:8px 10px; 
 	border-bottom:1px solid #ddd;
 
 	transition:0.4s ease; 
@@ -281,7 +281,7 @@ blockquote:last-child {
 	position: fixed;
 	right: 25px;
 	bottom: 10px;
-	width: 40px;
+	width: 60px;
 	height: 60px;
 	background-color: #bbb;
 	border-radius:7px;
