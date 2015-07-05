@@ -20,13 +20,21 @@ excerpt: 大型应用中的js模块化
 
 最早的时候，所有Javascript代码都写在一个文件里面，只要加载这一个文件就够了。后来，代码越来越多，一个文件不够了，必须分成多个文件，依次加载。下面的网页代码，相信很多人都见过。
 
-<script src="1.js"></script>	
-<script src="2.js"></script>
-<script src="3.js"></script>
-<script src="4.js"></script>
-<script src="5.js"></script>
-<script src="6.js"></script>
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title></title>
+			script src="1.js"></script>	
+			<script src="2.js"></script>
+			<script src="3.js"></script>
+			<script src="4.js"></script>
+			<script src="5.js"></script>
+			<script src="6.js"></script>
+		</head>
+		<body>
 
+		</body>
+	</html>
 
 
 
