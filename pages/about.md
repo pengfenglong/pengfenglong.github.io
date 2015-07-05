@@ -6,7 +6,9 @@ icon: glyphicon-heart
 ---
 
 ### 关于我
-
+1、Java、JavaEE、设计模式、SOA、技术架构。
+2、js
+3、可以编写前台、后台框架
  
 
 ---
