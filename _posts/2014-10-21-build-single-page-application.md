@@ -1,5 +1,10 @@
-构建单页Web应用
-====
+---
+layout: post
+title:  "构建单页Web应用"
+date:   2014-10-21 14:06:05
+categories: JavaScript
+excerpt: 构建单页Web应用
+---
 
 ## 单页应用是什么？
 

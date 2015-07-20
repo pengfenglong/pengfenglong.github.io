@@ -5,7 +5,6 @@ date:   2013-07-01 09:00:00
 categories: JavaScript
 excerpt: 从零开始编写自己的JavaScript框架（一）
 ---
-====
 
 #1. 模块的定义和加载
 

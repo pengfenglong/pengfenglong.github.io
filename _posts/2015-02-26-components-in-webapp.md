@@ -1,5 +1,10 @@
-2015前端组件化框架之路
-====
+---
+layout: post
+title:  "前端组件化框架之路"
+date:   2015-02-26 14:06:05
+categories: JavaScript
+excerpt: 前端组件化框架之路
+---
 
 # 1. 为什么组件化这么难做
 
