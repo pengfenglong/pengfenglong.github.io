@@ -16,6 +16,25 @@
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	{% if page.category != nil %}
+<ul class="left">
+<li class="divider"></li>
+<li class="has-dropdown"><a class="active" href="#"> {{ site.[page.category] }} </a><ul class="dropdown">
+{% for article in site.pages %}
+{% if article.category == page.category %}
+{% if article.url == page.url %}
+<li class="active"><a href="#">{{ article.title }}</a></li>
+{% else %}
+<li><a href="{{article.url}}">{{ article.title }}</a></li>
+{% endif %}
+{% endif %}
+{% endfor %}
+</ul></li>
+<li class="divider"></li>
+<li class="has-dropdown nav-3"><a href="#"> {{ page.title }}</a><ul class="dropdown">
+</ul></li>
+</ul>
+{% endif %}
       <ul class="nav navbar-nav navbar-right">
 
         {% if page.url == "/index.html" %}
