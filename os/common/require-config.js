@@ -68,7 +68,7 @@ require([
 	'navigate',
 	'home',
 	'Bootstrap',
-	'css!../common/pframe/css/pframe.css'
+	'css!../common/common.css'
 ],function(navigate,home){
 
 	new navigate();

@@ -1,0 +1,5 @@
+require([
+	'nav',
+	'category',
+	'creategood'
+]);

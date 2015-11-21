@@ -1,0 +1,4 @@
+require([
+	'nav',
+	'category'
+]);

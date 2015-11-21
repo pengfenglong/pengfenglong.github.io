@@ -1,0 +1,66 @@
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+  新增
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+	<div class="modal-content">
+	  <div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		<h4 class="modal-title" id="myModalLabel">新增属性</h4>
+	  </div>
+	  <div class="modal-body">
+		<form role="form">
+
+			<div class="form-group">
+			  <label>属性名称</label>
+			  <input id="name" type="text" class="form-control" placeholder="Enter ...">
+			</div>
+
+			<div class="form-group">
+			  <label>属性类型</label>
+			  <select id="type" class="form-control">
+				<option select value="input">输入框</option>
+				<option value="select">单选</option>
+				<option value="mulselect">多选</option>
+			  </select>
+			</div>
+			
+			<div class="form-group">
+			  <label>默认值</label>
+			  <input id="defaultValue" type="text" class="form-control" placeholder="Enter ...">
+			</div>
+		   
+
+		  </form>
+	  </div>
+	  <div class="modal-footer">
+		<button type="button" class="btn btn-default c" data-dismiss="modal">关闭</button>
+		<button type="button" class="btn btn-primary s">保存</button>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<table class="table table-hover" style="margin-top:10px;">
+<tbody>
+<tr>
+  <th>名称</th>
+  <th>类型</th>
+  <th>默认值</th>
+  <th>操作</th>
+</tr>
+{{#each this}}
+<tr>
+  <td>{{name}}</td>
+  <td>{{type}}</td>
+  <td>{{defaultValue}}</td>
+  <td>
+	<button type="button">修改</button>
+	<button type="button">删除</button>
+	<button type="button">查看</button>
+  </td>
+</tr>
+{{/each}}
+</tbody></table>
