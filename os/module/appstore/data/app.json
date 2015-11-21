@@ -1,0 +1,148 @@
+{
+"apps": [{
+			"code": "sinanews",
+			"name": "新浪新闻",
+			"icon": "sina.png",
+			"url": "http://news.sina.cn"
+		},
+		{
+			"code": "sohunews",
+			"name": "搜狐新闻",
+			"icon": "souhu.png",
+			"url": "http://m.sohu.com"
+		},
+		{
+			"code": "shop",
+			"name": "购物",
+			"icon": "gou.jpg",
+			"url": "http://www.taobao.com"
+		},
+		{
+			"code": "weather",
+			"name": "天气",
+			"icon": "tianqi.jpg",
+			"url": "http://m.46644.com/tool/tianqi/"
+		},
+		{
+			"code": "caipiao",
+			"name": "彩票",
+			"icon": "caipiao.gif",
+			"url": "http://m.46644.com/tool/caipiao/"
+		},
+		{
+			"code": "illegal",
+			"name": "违章查询",
+			"icon": "weizhang.jpg",
+			"url": "http://m.46644.com/tool/illegal/"
+		},
+		{
+			"code": "calendar",
+			"name": "万年历",
+			"icon": "calendar.jpg",
+			"url": "http://m.46644.com/tool/calendar/"
+		},
+		{
+			"code": "express",
+			"name": "快递查询",
+			"icon": "kuaidi.jpg",
+			"url": "http://m.46644.com/tool/express/"
+		},
+		{
+			"code": "idcard",
+			"name": "身份证",
+			"icon": "idcard.jpg",
+			"url": "http://m.46644.com/tool/idcard/"
+		},
+		{
+			"code": "zipcode",
+			"name": "邮编",
+			"icon": "zipcode.jpg",
+			"url": "http://m.46644.com/tool/zipcode/"
+		},
+		{
+			"code": "train",
+			"name": "火车",
+			"icon": "liecheshike.jpg",
+			"url": "http://m.46644.com/tool/train/"
+		},
+		{
+			"code": "transit1",
+			"name": "公交",
+			"icon": "bus.jpg",
+			"url": "http://m.46644.com/tool/transit/"
+		},
+		{
+			"code": "transit2",
+			"name": "地铁",
+			"icon": "gongjiao.jpg",
+			"url": "http://m.46644.com/tool/transit/"
+		},
+		{
+			"code": "tel",
+			"name": "常用电话",
+			"icon": "tel.jpg",
+			"url": "http://m.46644.com/tool/tel/"
+		},
+		{
+			"code": "translate",
+			"name": "翻译",
+			"icon": "fanyi.jpg",
+			"url": "http://m.46644.com/tool/translate/"
+		},
+		{
+			"code": "exchange",
+			"name": "汇率查询",
+			"icon": "huilv.jpg",
+			"url": "http://m.46644.com/tool/exchange/"
+		},
+		{
+			"code": "calculator",
+			"name": "计算器",
+			"icon": "calculator.jpg",
+			"url": "http://m.46644.com/tool/calculator/"
+		},
+		{
+			"code": "unitconvert",
+			"name": "单位换算",
+			"icon": "unitconvert.png",
+			"url": "http://m.46644.com/tool/unitconvert/"
+		},
+		{
+			"code": "car",
+			"name": "汽车标志",
+			"icon": "icon114(2).png",
+			"url": "http://m.46644.com/tool/car/"
+		},
+		{
+			"code": "chengyu",
+			"name": "成语大全",
+			"icon": "icon114(3).png",
+			"url": "http://m.46644.com/tool/chengyu/"
+		},
+		{
+			"code": "pair",
+			"name": "星座",
+			"icon": "xingzuo114.png",
+			"url": "http://m.46644.com/tool/pair/"
+		},
+		{
+			"code": "shengxiao",
+			"name": "生肖",
+			"icon": "shengxiao114(1).png",
+			"url": "http://m.46644.com/tool/shengxiao/"
+		},
+		{
+			"code": "baijiaxing",
+			"name": "百家姓",
+			"icon": "bjx114.png",
+			"url": "http://m.46644.com/tool/baijiaxing/"
+		},
+		{
+			"code": "todayhistory",
+			"name": "历史上的今天",
+			"icon": "icon114(4).png",
+			"url": "http://m.46644.com/todayhistory/"
+		}],
+		"success":true
+		
+}

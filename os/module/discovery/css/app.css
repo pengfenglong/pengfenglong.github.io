@@ -1,0 +1,98 @@
+body {
+            margin: 0;
+            font-family: 'Helvetica', sans-serif;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .qlist {
+            margin: 10px;
+            border-radius: 4px;
+            overflow: hidden;
+            border: 1px solid #d7d7d7;
+            font-size: 13px;
+        }
+
+        .q-header {
+            line-height: 36px;
+            padding-left: 10px;
+            background: #f2f2f2;
+            font-weight: bold;
+            font-size: 16px;
+            border-bottom: 1px solid #d7d7d7;
+        }
+
+        .q-item {
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            padding: 0 10px;
+            border-bottom: 1px solid #d7d7d7;
+            position: relative;
+        }
+
+        .q-item:last-child {
+            border-bottom: none;
+        }
+
+        .radio {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            -webkit-appearance: none;
+            appearance: none;
+            outline: none;
+            background: none;
+            border: none;
+            outline: none;
+            z-index: 100;
+        }
+
+        .q-box {
+            width: 90%;
+            padding: 15px 0;
+            position: relative;
+            font-size: 16px;
+        }
+
+        .a-box {
+            display: none;
+            padding-bottom: 15px;
+        }
+
+        .radio:checked +.q-box + .a-box {
+            display: block;
+        }
+
+        .q-box::after {
+            content: "";
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            border-left: 2px solid #ccc;
+            border-bottom: 2px solid #ccc;
+            right: -15px;
+            top: 50%;
+            margin-top: -3px;
+            -webkit-transform: rotate(225deg);
+            transform: rotate(225deg);
+        }
+
+        .radio:checked + .q-box::after {
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }

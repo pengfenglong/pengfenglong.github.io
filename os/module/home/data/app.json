@@ -1,0 +1,50 @@
+{
+"apps": [{
+			"code": "gzzh",
+			"name": "公众账号",
+			"icon": "getheadimg.jpg",
+			"url": "http://weixin.sogou.com/gzhwap?openid=oIWsFtze-mrY2FI_Hug27phu-sAE#rd"
+		},
+		{
+			"code": "blog",
+			"name": "技术博客",
+			"icon": "getheadimg.jpg",
+			"url": "http://pengfenglong.github.io"
+		},
+		{
+			"code": "events",
+			"name": "大事记",
+			"icon": "hzbike.jpg",
+			"url": "apps/fullpage/index.html"
+		},
+		{
+			"code": "uehtml",
+			"name": "uehtml",
+			"icon": "hzbike.jpg",
+			"url": "apps/uehtml/index.html"
+		},
+		{
+			"code": "d3",
+			"name": "d3",
+			"icon": "hzbike.jpg",
+			"url": "apps/d3/index.html"
+		},
+		{
+			"code": "map",
+			"name": "地图",
+			"icon": "ditu.jpg",
+			"url": "apps/map/index.html"
+		},
+		{
+			"code": "test",
+			"name": "Admin",
+			"icon": "hzbike.jpg",
+			"url": "apps/admin/category.html"
+		},
+		{
+			"code": "test",
+			"name": "测试",
+			"icon": "hzbike.jpg",
+			"url": "apps/test/index.html"
+		}]
+}
