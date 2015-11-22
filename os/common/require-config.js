@@ -65,15 +65,6 @@ require.config({
 });
 
 require([
-	'Pefelo_Class'
-],function(Class){
-
-	alert(333);
-	
-});
-
-/**
-require([
 	'navigate',
 	'home',
 	'Bootstrap',
@@ -84,4 +75,3 @@ require([
 	new home();	
 	
 });
-**/
