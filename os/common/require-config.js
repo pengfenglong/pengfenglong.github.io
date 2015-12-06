@@ -4,7 +4,8 @@ require.config({
 	   waitSeconds: 0,
 	   map: {
 			'*': {
-			  'css': 'require-plugins/css' // or whatever the path to require-css is
+			  'css': 'require-plugins/css',
+			  'text': 'require-plugins/text'
 			}
 	   },
 
@@ -35,7 +36,7 @@ require.config({
 		  handlebars: 'handlebars-v3.0.0',
 		  sha1:'sha1',
 		  Handlebars: '../common/pefelo/util/Handlebars',	  
-		  text: 'require-plugins/text',
+		  //text: 'require-plugins/text',
 		  //css: 'require-plugins/css',	  
 		  Swiper:'swiper/js/idangerous.swiper-2.1.min',	 
 		  bootstrap_treeview:'bootstrap-treeview/js/bootstrap-treeview.min',
