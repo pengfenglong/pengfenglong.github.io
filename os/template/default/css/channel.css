@@ -1,0 +1,14 @@
+.article{
+	margin: 10px 0;
+}
+
+#show_more_div{
+	background: #ccc;
+	cursor: pointer;
+	text-align: center;
+}
+
+#has_show_all{
+	background: #eee;
+	text-align: center;
+}

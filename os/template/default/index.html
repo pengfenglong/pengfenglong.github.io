@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1">
+  <title>test</title>
+
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="channels_div"></div>
+</body>
+<script type="text/javascript">
+	
+$.ajax({
+	url:'./data/channels.json',
+	dataType:'json',
+	success:function(data){
+		var _s = '';
+		data.forEach(function(channel){
+			_s += '<a href="channel.html?id='+channel.id+'">' + channel.name + '</a> &nbsp;';
+		});
+		$('#channels_div').html(_s);
+	}
+});
+
+</script>
+
+</html>
