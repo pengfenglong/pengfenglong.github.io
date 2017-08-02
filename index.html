@@ -1,64 +1,16 @@
----
-layout: default
----
-<div id="index" class="row">
-  <div class="col-sm-9">
-    <div class="post-area">
-      <!-- small button -->
-     <!--  <p class="pull-right visible-xs">
-       <button>toggle</button>
-     </p> -->
-      <div class="post-list-header">
-        博客
-      </div>
-      <div class="post-list-body">
-        
-        <div class="all-posts" post-cate="All">
-          {% for post in site.posts %}
-            <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
-              <h2>
-              {{ post.title }}
-              </h2>
-              <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
-            </a>
-          {% endfor %}
-        </div>
-        <!-- <div class="posts-in-categories"> -->
-        {% for category in site.categories %}
-          <div post-cate="{{category | first}}">
-            {% for posts in category  %}
-              {% for post in posts %}
-                {% if post.url %}
-                  <a href="{{ post.url }}" class="post-list-item">
-                    <h2>
-                    {{ post.title }}
-                    </h2>
-                    <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
-                  </a>
-                {% endif %}
-              {% endfor %}
-            {% endfor %}
-          </div>
-        {% endfor %}
-        
-        <!-- </div> -->
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="shadow-corner-curl hidden-xs">
-      <div class="categories-list-header">
-        分类
-      </div>
-      
-      <a href="javascript:;" class="categories-list-item" cate="All">
-        全部<span class="my-badge"> {{site.categories | size}}</span>
-      </a>
-      {% for category in site.categories %}
-        <a href="javascript:;" class="categories-list-item" cate="{{ category | first }}">
-          {{ category | first }} <span class="my-badge">{{ category | last | size }}</span>
-        </a>
-      {% endfor %}
-    </div>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1">
+  <title>edesk</title>
+  <link rel="stylesheet" href="os/dist/index.css"/>
+  <link rel="stylesheet" href="os/public/antd.min.css"/>
+  <script src="os/public/jquery-3.1.1.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="os/dist/common.js"></script>
+  <script src="os/dist/index.js"></script>
+</body>
+</html>
